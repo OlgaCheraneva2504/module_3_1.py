@@ -8,7 +8,7 @@ def string_info(string):
 def is_conteins(string, list_to_search):
     count_calls()
     for i in list_to_search:
-        if string.lower() in i.lower():
+        if string.lower() == i.lower():
             return(True)
     return(False)
 print(string_info('Other'))
